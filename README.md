@@ -1,9 +1,6 @@
 # Team-Project
 
-new update 
-Hello world
-hi
-hey
+This is a group project consiting of software engineering principles. A web-based API bookstore (back-end only)
 
 ## Contributing
 
