@@ -1,6 +1,6 @@
 # Team-Project
 
-something something new update
+new update
 
 ## Contributing
 
