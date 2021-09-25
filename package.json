@@ -1,0 +1,23 @@
+{
+  "name": "cen4010-group15-project",
+  "version": "0.0.1",
+  "description": "Project for the class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CEN4010-GROUP-15/Team-Project.git"
+  },
+  "author": "Group-15",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CEN4010-GROUP-15/Team-Project/issues"
+  },
+  "homepage": "https://github.com/CEN4010-GROUP-15/Team-Project#readme",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
