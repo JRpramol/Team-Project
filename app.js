@@ -9,7 +9,7 @@ app.get("/", function(req, res) {
 });
 // serving data
 app.get('/api/', (req, res) => {
-    res.json({group15: "software engineering"})
+    res.json({group15: "software engineering - new change"})
 })
 
 app.listen(PORT, function() {
