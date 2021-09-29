@@ -1,12 +1,17 @@
-// importing express
-const express = require('express')
+const PORT = process.env.PORT || 3000;
 
-// creating a instance of express
+const express = require("express");
 const app = express();
+app.use(express.json());
 
+app.get("/", function(req, res) {
+    res.send("Project Home");
+});
 // serving data
 app.get('/api/', (req, res) => {
     res.json({hello: "Hello World"})
 })
 
-app.listen(5000, console.log('App Running On Port 5000!'))
+app.listen(PORT, function() {
+    console.log(`Listening on Port ${PORT}`);
+});
