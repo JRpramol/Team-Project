@@ -16,4 +16,4 @@ app.listen(PORT, function() {
     console.log(`Listening on Port ${PORT}`);
 });
 
-module.exports = router;
+module.exports = app;
