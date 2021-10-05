@@ -15,3 +15,5 @@ app.get('/api/', (req, res) => {
 app.listen(PORT, function() {
     console.log(`Listening on Port ${PORT}`);
 });
+
+module.exports = router;
